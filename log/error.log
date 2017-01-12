@@ -1,0 +1,26 @@
+2017/01/09 18:12:53 [error] 34220#0: *1373 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/Users/yongshan/workspace/lara-test/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /Users/yongshan/workspace/lara-test/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /Users/yongshan/workspace/lara-test/vendor/laravel/fram...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/Users/yongshan/workspace/lara-test/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /Users/yongshan/workspace/lara-test/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Objec
+2017/01/09 18:16:39 [error] 34220#0: *1375 FastCGI sent in stderr: "PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/Users/yongshan/workspace/lara-test/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(UnexpectedValueException), Array)
+#3 /Users/yongshan/workspace/lara-test/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Object(UnexpectedValueException), Array)
+#4 /Users/yongshan/workspace/lara-test/vendor/laravel/fram...
+PHP message: PHP Fatal error:  Uncaught UnexpectedValueException: The stream or file "/Users/yongshan/workspace/lara-test/storage/logs/laravel.log" could not be opened: failed to open stream: Permission denied in /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /Users/yongshan/workspace/lara-test/vendor/monolog/monolog/src/Monolog/Logger.php(616): Monolog\Logger->addRecord(400, Object(Symfony\Component\Debug\Exception\FatalErrorException), Array)
+#3 /Users/yongshan/workspace/lara-test/vendor/laravel/framework/src/Illuminate/Log/Writer.php(202): Monolog\Logger->error(Objec
